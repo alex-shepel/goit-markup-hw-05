@@ -26,6 +26,7 @@ ul {
 	justify-content: center;
 	gap: 8px;
 	text-align: center;
+	transition: box-shadow var(--anim-props);
 }
 
 .content-filter > .item:hover,
@@ -42,6 +43,7 @@ ul {
 
 .content-table > .item {
 	flex-basis: var(--table-basis);
+	transition: box-shadow var(--anim-props);
 }
 
 .content-table > .item:hover,
@@ -116,6 +118,7 @@ ul {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.6;
+	transition: color var(--anim-props), background-color var(--anim-props);
 }
 
 .btn:hover,
